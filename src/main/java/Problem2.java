@@ -9,11 +9,11 @@ public class Problem2 {
         Scanner in = new Scanner(System.in);
         System.out.println("Give me a number:");
         int n = in.nextInt();
-        System.out.println("The fib output of "+n+ " is "+tib(n));
+        System.out.println("The tib output of "+n+ " is "+tib(n));
     }
 
     public static int tib(int n) {
-        return tibh(n,new HashMap<Integer,Integer>());
+        return tibh(n,new HashMap<>());
     }
 
     //Tribonacci Helper Class
